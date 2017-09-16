@@ -17,11 +17,12 @@
 #   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 cd ~
-rpi-rw
+sudo mount -o remount,rw /
+sudo mount -o remount,rw /boot
 
 # Install the necessary software tools
 sudo apt-get update
-sudo apt-get install git gcc-arm-none-eabi gdb-arm-none-eabi autoconf libtool pkg-config libusb-1.0-0 libusb-1.0-0-dev
+sudo apt-get install git gcc-arm-none-eabi gdb-arm-none-eabi autoconf libtool pkg-config libusb-1.0-0 libusb-1.0-0-dev -y
 
 # Install OpenOCD
 cd ~
