@@ -22,7 +22,7 @@ sudo mount -o remount,rw /boot
 
 # Install the necessary software tools
 sudo apt-get update
-sudo apt-get install git gcc-arm-none-eabi gdb-arm-none-eabi autoconf libtool pkg-config libusb-1.0-0 libusb-1.0-0-dev libstdc++-arm-none-eabi-newlib﻿-y
+sudo apt-get install git gcc-arm-none-eabi gdb-arm-none-eabi autoconf libtool pkg-config libusb-1.0-0 libusb-1.0-0-dev libstdc++-arm-none-eabi-newlib -y
 
 # Install OpenOCD
 cd ~
